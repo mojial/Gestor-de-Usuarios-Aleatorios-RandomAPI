@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+}
+
+#contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#texto {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#iconos {
+    margin-top: 20px;
+}
+
+#iconos img {
+    width: 30px;
+    margin: 0 10px;
+}
+img {
+    border-radius: 50%;
+  }
+img:hover {
+    opacity: 0.5;
+}
+
+#texto{
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+button{
+    background-color: orange;
+    color: white;
+    margin-top: 20px;
+}
